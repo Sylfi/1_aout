@@ -7,7 +7,7 @@ require 'faker'
     stroll = Stroll.new
     dog.city = city
     dogsitter.city = city
-    #stroll.city = city
+    stroll.city = city
     dog.save
     dogsitter.save
     stroll.save
